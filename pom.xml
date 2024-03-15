@@ -33,6 +33,22 @@
         <assertj.version>3.25.3</assertj.version>
     </properties>
 
+<!--    <profiles>-->
+<!--  <profile>-->
+<!--      <id>postresql</id>-->
+<!--       <dependencies>-->
+<!--           <dependency>-->
+<!--               <groupId>org.postgresql</groupId>-->
+<!--               <artifactId>pgjdbc-core-prevjre</artifactId>-->
+<!--               <version>1.1.2</version>-->
+<!--           </dependency>-->
+<!--       </dependencies>-->
+<!--      <activation>-->
+<!--          <activeByDefault>true</activeByDefault>-->
+<!--      </activation>-->
+<!--  </profile>-->
+<!--    </profiles>-->
+
     <build>
         <finalName>topjava</finalName>
         <defaultGoal>package</defaultGoal>
